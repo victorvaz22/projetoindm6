@@ -117,14 +117,14 @@ function App() {
         className="mb-2"
         onClick={handleShowCreateModal}
         variant='primary'>
-        Criar Conteúdo
+        Adicionar Filme
       </Button>
       <Table striped bordered hover>
         <thead>
           <tr>
             <th>Titulo</th>
-            <th>Descrição</th>
-            <th>Porcentagem</th>
+            <th>Sinopse</th>
+            <th>Porcentagem de aprovação</th>
             <th>Ações</th>
           </tr>
         </thead>
